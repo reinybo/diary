@@ -1,0 +1,15 @@
+{% extends 'base.html' %} {% block content %}
+
+<h1>Diary Entry List</h1>
+
+{% for entry in entries %}
+<div class="card">
+    <a href="{% url 'detail' entry.id %}">
+        <div class="card-content">
+            <span class="card-title">{{ entry.title }}</span>
+            <p>Date: {{ entry.date }}</p>
+            <p>Content: {{ entry.content }}</p>
+        </div>
+    </a>
+</div>
+{% endfor %} {% endblock %}
