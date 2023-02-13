@@ -100,15 +100,13 @@ footer {
     font-weight: bold;
     text-transform: capitalize;
     font-size: 18px;
+    font-family: 'Patrick Hand', cursive;
 }
 
 .detail_date {
     position: relative;
     width: 55%;
     margin-left: 80%;
-}
-
-
-form {
     font-family: 'Patrick Hand', cursive;
 }
+
