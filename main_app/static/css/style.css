@@ -55,7 +55,6 @@ footer {
     border: 0;
     outline: 0;
     background: transparent;
-    font-family: 'Handlee';
     font-weight: bold;
     font-size: 18px;
     box-sizing: border-box;
@@ -67,6 +66,9 @@ footer {
     width: 180%;
     margin-left: 5%;
     border-bottom: none;
+    font-family: 'Patrick Hand', cursive;
+    font-size: 18px;
+
 }
 
 #id_date {
@@ -74,10 +76,14 @@ footer {
     width: 55%;
     margin-left: 100%;
     border-bottom: none;
+    font-family: 'Patrick Hand', cursive;
+    font-size: 18px;
+
 }
 
 #id_content {
-    margin-top: 2%;
+    margin-top: 0%;
+    font-family: 'Patrick Hand', cursive;
 }
 
 .form_title_date_input {
@@ -102,3 +108,7 @@ footer {
     margin-left: 80%;
 }
 
+
+form {
+    font-family: 'Patrick Hand', cursive;
+}

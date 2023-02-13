@@ -2,11 +2,6 @@
 {% extends 'base.html' %} {% block content %}
 {% load widget_tweaks %}
 <div class="paper">
-  {% if object %}
-  <p>Edit <span class="teal-text">{{object.title}}</span></p>
-  {% else %}
-  <p>Add Entry</p>
-  {% endif %}
   <div class="paper-content">
     <!-- Leaving the action empty makes the form post to the same url used to display it -->
     <form action="" method="post">
