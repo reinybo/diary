@@ -32,6 +32,8 @@ class EntryCreate(LoginRequiredMixin, CreateView):
         form.instance.user = self.request.user
         return super().form_valid(form)
 
+
+
 @login_required
 def entry_detail(request, entry_id):
   entry = Entry.objects.get(id=entry_id)
