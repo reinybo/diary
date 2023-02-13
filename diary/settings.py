@@ -31,6 +31,7 @@ ALLOWED_HOSTS = []
 # Application definition
 
 INSTALLED_APPS = [
+    'environ',
     'widget_tweaks',
     'main_app',
     'django.contrib.admin',
@@ -129,10 +130,7 @@ LOGIN_REDIRECT_URL = '/entries/'
 LOGOUT_REDIRECT_URL = '/'
 
 
-import environ
-import os
-environ.Env()
-environ.Env.read_env()
+
 
 
 # Configure Django App for Heroku.
