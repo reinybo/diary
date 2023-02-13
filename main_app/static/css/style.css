@@ -13,7 +13,7 @@ footer {
     text-align: right;
 }
 
-
+/* Paper effect adapted from Marc Malignan https://codepen.io/MarcMalignan/pen/QbaXGg */
 .paper {
     
     position: relative;
@@ -113,4 +113,12 @@ footer {
 
 textarea {
     font-family: 'Patrick Hand', cursive;
+}
+
+.btn {
+    margin: 2% 0 2% 0;
+}
+
+.edit-btn {
+    margin-left: 5%;
 }
