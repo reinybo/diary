@@ -78,7 +78,11 @@ WSGI_APPLICATION = 'diary.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql',
-        'NAME': 'diary',
+        'NAME': 'reinybo/diary',
+        'USER': 'reinybo',
+        'PASSWORD': 'v2_3z4wa_2fMnsBc4GzYAPZLG5KFFafL',
+        'HOST': 'db.bit.io',
+        'PORT': '5432',
     }
 }
 

@@ -5,6 +5,7 @@ dj-database-url==1.2.0
 Django==4.1.6
 django-environ==0.9.0
 django-heroku==0.3.1
+django-on-heroku==1.1.2
 django-widget-tweaks==1.4.12
 gunicorn==20.1.0
 jmespath==1.0.1
