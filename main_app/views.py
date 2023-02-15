@@ -76,8 +76,9 @@ def signup(request):
 import os
 import environ
 
-BUCKET = 'diary-bucket-2023'
-S3_BASE_URL = 'https://s3-us-west-2.amazonaws.com/'
+
+BUCKET = os.environ['S3_BUCKET']
+S3_BASE_URL = os.environ['S3_BASE_URL']
 
 @login_required
 def add_photo(request, entry_id):

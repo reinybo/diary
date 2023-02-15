@@ -75,14 +75,17 @@ WSGI_APPLICATION = 'diary.wsgi.application'
 # Database
 # https://docs.djangoproject.com/en/4.1/ref/settings/#databases
 
+import os
+import environ
+
 DATABASES = {
     'default': {
-        'ENGINE': 'django.db.backends.postgresql',
-        'NAME': 'reinybo/diary',
-        'USER': 'reinybo',
-        'PASSWORD': 'v2_3z4wa_2fMnsBc4GzYAPZLG5KFFafL',
-        'HOST': 'db.bit.io',
-        'PORT': '5432',
+        'ENGINE': os.environ['DATABASE_ENGINE'],
+        'NAME': os.environ['DATABASE_NAME'],
+        'USER': os.environ['DATABASE_USER'],
+        'PASSWORD': os.environ['DATABASE_PASSWORD'],
+        'HOST': os.environ['DATABASE_HOST'],
+        'PORT': os.environ['DATABASE_PORT'],
     }
 }
 
