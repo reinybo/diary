@@ -17,9 +17,10 @@ Diary is your modern-day virtual diary. Users are able to create their own secur
 
 ## Screenshots
 
-![Imgur](/Screen Shot 2023-02-15 at 4.05.51 PM.png)
-
 ![Imgur](https://github.com/reinybo/diary/blob/61ffba968ab54b1350a3926b50426c662f4da14d/Screen%20Shot%202023-02-15%20at%209.36.24%20AM.png)
+
+![Imgur](https://github.com/reinybo/diary/blob/57092530162ff609660a9fecf7428a82670bac0e/Screen%20Shot%202023-02-15%20at%204.05.51%20PM.png)
+
 
 ## Getting Started 
 
