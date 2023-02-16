@@ -17,9 +17,9 @@ Diary is your modern-day virtual diary. Users are able to create their own secur
 
 ## Screenshots
 
-[Imgur](https://imgur.com/SpFePeE)
+![Imgur](https://imgur.com/SpFePeE)
 
-[Imgur](https://imgur.com/BVYy00r)
+![Imgur](https://imgur.com/BVYy00r)
 
 ## Getting Started 
 
