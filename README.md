@@ -17,8 +17,8 @@ Diary is your modern-day virtual diary. Users are able to create their own secur
 
 ## Screenshots
 
-<a href="https://imgur.com/SpFePeE"><img src="https://imgur.com/SpFePeE" alt="Screen-Shot-2023-01-04-at-9-49-57-PM" border="0"></a>
-<a href="https://imgur.com/BVYy00r"><img src="https://imgur.com/BVYy00r" alt="Screen-Shot-2023-01-04-at-9-49-57-PM" border="0"></a>
+![ScreenShot]([https://{url}](https://imgur.com/SpFePeE))
+![ScreenShot]([https://{url}](https://imgur.com/BVYy00r))
 
 
 ## Getting Started 
