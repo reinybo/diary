@@ -76,6 +76,9 @@ def signup(request):
 import os
 import environ
 
+env = environ.Env()
+environ.Env.read_env()
+
 
 BUCKET = os.environ['S3_BUCKET']
 S3_BASE_URL = os.environ['S3_BASE_URL']
